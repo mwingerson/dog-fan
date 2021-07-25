@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Modified from TensorFlow object_detection Raspberry Pi example
+
 if [ $# -eq 0 ]; then
   DATA_DIR="models"
 else

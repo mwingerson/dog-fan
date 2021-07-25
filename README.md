@@ -17,3 +17,7 @@ chmod +x ./download.sh
 
 # Run program
 python3 dog_fan.py --model models/detect.tflite --labels models/coco_labels.txt
+
+OR
+
+python3 dog_fan.py 

@@ -84,9 +84,11 @@ def main():
     print("Started Program")
     parser = argparse.ArgumentParser(formatter_class = argparse.ArgumentDefaultsHelpFormatter)
 
-    parser.add_argument('--model', help='Path to .tflite file', required=True)
+    parser.add_argument('--model', help='Path to .tflite file', required=False,
+            default="models/detect.tflite")
 
-    parser.add_argument('--labels', help='Path to labels file', required=True)
+    parser.add_argument('--labels', help='Path to labels file', required=False,
+            default="models/coco_labels.txt")
 
     parser.add_argument('--threshold', help='Detection threshold', required=False,
             type=float, default=0.5)
