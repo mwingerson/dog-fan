@@ -1,3 +1,6 @@
+
+# Modified from TensorFlow object_detection Raspberry Pi example
+
 # Python packages required for classify_picamera.py
 numpy
 picamera
