@@ -6,11 +6,9 @@
 - TP-Link/KASA WiFi SmartPlug
 
 # 3D models used
-stand parts 1 - https://www.thingiverse.com/thing:3114849
-
-stand parts 2 - https://www.prusaprinters.org/prints/7867-simple-stand-for-sneakss-articulating-rpi-camera-m
-
-RPi case - https://www.thingiverse.com/thing:1956623
+- stand parts 1 - https://www.thingiverse.com/thing:3114849
+- stand parts 2 - https://www.prusaprinters.org/prints/7867-simple-stand-for-sneakss-articulating-rpi-camera-m
+- RPi case - https://www.thingiverse.com/thing:1956623
 
 # Description
 A simple program to use computer vision to identify if my dog is sitting in front of her favorite fan.
